@@ -16,7 +16,7 @@ v_kyn = 0.5 / 1000000;
 v_dyn = (0.000575+0.00089)/2;
 
 %Festlegung der Variablen
-m_dot1 = (0.18*dichte)/3600; %  kg/s
+m_dot1 = (0.5*dichte)/3600; %  kg/s
 
 %Temperaturen
 T11 = 47; %°C Eintrittstemperatur Warme Seite
@@ -65,7 +65,7 @@ k2 = ((1/alpha1)+(s/Waermeleitfaeigkeit2)+(1/alpha2))^(-1); % W/m^2 K
 %k=963;
 
 %Berechnung zu übertragender Wärmestrom
-Q_dot1 = m_dot1*cp1*(T11-T12);
+Q_dot1 = m_dot1*cp1*(T11-T12); %J/s
 
 %Berechnung des mittleren logarithmetischen Temperaturgefälle
 deltaTG = T11-T21;
