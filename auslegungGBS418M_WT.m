@@ -12,8 +12,8 @@ s = d_h / 2; % mm
 
 %viskosität Wasser
 v_kyn = 0.5 / 1000000;
-%v_dyn = v_kyn * dichte;
-v_dyn = (0.000575+0.00089)/2;
+v_dyn = v_kyn * dichte;
+%v_dyn = (0.000575+0.00089)/2;
 
 %Festlegung der Variablen
 m_dot1 = (0.5*dichte)/3600; %  kg/s
