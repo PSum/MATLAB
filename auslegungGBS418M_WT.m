@@ -20,9 +20,9 @@ m_dot1 = (0.5*dichte)/3600; %  kg/s
 
 %Temperaturen
 T11 = 47; %°C Eintrittstemperatur Warme Seite
-T12 = 25; %°C
+T12 = 21; %°C
 T21 = 15; %°C Grundwassertemperatur
-T22 = 37; %°C
+T22 = 41; %°C
 
 %{
 h11 = 199.35;
